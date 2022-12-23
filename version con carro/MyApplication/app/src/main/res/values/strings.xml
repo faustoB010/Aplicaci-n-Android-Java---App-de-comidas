@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrase_a1">Contraseña</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="registrar_usuarios">Registrar Usuarios</string>
+    <string name="ususario">Ususario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="registrarboton">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_agregar_productos">agregar_Productos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="escoja_la_imagen">Escoja la imagen</string>
+    <string name="guardar">Guardar</string>
+    <string name="precio">Precio</string>
+    <string name="imagen_del_producto">Imagen del Producto</string>
+    <string name="icono_de_suma">icono de suma</string>
+    <string name="lista_de_pedidos">Lista de Pedidos</string>
+    <string name="descripcionEditar">Descripción:</string>
+    <string name="nombreEditar">Nombre:</string>
+    <string name="precioEditar">Precio:</string>
+    <string name="actualizarEditarbt">Actualizar</string>
+    <string name="eliminarEdtarbt">Eliminar</string>
+    <string name="imagenmostrar">ImagenMostrar</string>
+    <string name="productos">productos</string>
+    <string name="agregar_al_carrito">Agregar al Carrito</string>
+    <string name="simbolo_dinero">$</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="btmenos">-</string>
+    <string name="btmas">+</string>
+    <string name="countcantidad">0</string>
+</resources>

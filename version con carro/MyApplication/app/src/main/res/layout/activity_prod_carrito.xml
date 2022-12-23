@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/prodImg2"
+        android:layout_width="152dp"
+        android:layout_height="152dp"
+        android:padding="1dp"
+        tools:srcCompat="@drawable/buscar_imagen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prodNombre2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:hint="@string/nombre_del_producto"
+            android:text="@string/nombre_del_producto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/prodPrecio2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:clickable="false"
+            android:hint="@string/precio"
+            android:saveEnabled="false"
+            android:text="@string/precio"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/prodUnidades"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Unidades" />
+
+    </LinearLayout>
+
+</LinearLayout>

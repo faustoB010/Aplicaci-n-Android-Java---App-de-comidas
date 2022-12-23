@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar_productos">
+
+    <EditText
+        android:id="@+id/nombreProducto"
+        android:layout_width="279dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="@string/nombre_del_producto"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/precio"
+        app:layout_constraintStart_toStartOf="@+id/precio"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:ems="10"
+        android:hint="@string/precio"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionProducto" />
+
+    <EditText
+        android:id="@+id/descripcionProducto"
+        android:layout_width="281dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/descripci_n"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/precio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/precio"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagenEscoger"
+        android:layout_width="178dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen_del_producto"
+        app:layout_constraintStart_toStartOf="@+id/precio"
+        app:layout_constraintTop_toBottomOf="@+id/precio"
+        app:srcCompat="@drawable/buscar_imagen" />
+
+    <Button
+        android:id="@+id/escoger1"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/escoja_la_imagen"
+        app:layout_constraintBottom_toTopOf="@+id/guardarProducto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/guardarProducto"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
